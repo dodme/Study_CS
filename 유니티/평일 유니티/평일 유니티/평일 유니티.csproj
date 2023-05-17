@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8B4E7584-2C22-4A74-B6DC-B7A030E9E55E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>평일_유니티</RootNamespace>
+    <AssemblyName>평일 유니티</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01_출력\01_출력.cs" />
+    <None Include="01_출력\02_출력.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01_출력\03_출력.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="문제\02_철수의합격.cs" />
+    <None Include="02_변수와자료형\01_기본데이터형식\01_기본데이터형식.cs" />
+    <None Include="02_변수와자료형\01_기본데이터형식\03_변수.cs" />
+    <None Include="05_NullableType\이것이숙제다.cs" />
+    <None Include="05_NullableType\01_NullalbeType.cs" />
+    <None Include="04_상수\02_열거형.cs" />
+    <None Include="03_입력\01_입력.cs" />
+    <None Include="04_상수\01_상수.cs" />
+    <None Include="02_변수와자료형\01_기본데이터형식\02_변수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\01_철수의성적.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="06_연산자\01_산술언산자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="06_연산자\02_단항연산자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="06_연산자\03_관계연산자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="06_연산자\04_논리연산자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="06_연산자\05_복합대입연산자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="07_분기문\01_IF문\02_ifelse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="07_분기문\01_IF문\01_if.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="07_분기문\01_IF문\ifelseifelse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="07_분기문\01_IF문\철수의시험등급_문제.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="숙제\01_양수음수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="숙제\02_짝수홀수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="숙제\03_철수의시급.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\철수의등급.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="07_분기문\02_Switch문\01_switch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="07_분기문\02_Switch문\02_switch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\04_0319숙제.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="08_반복문\01_while\01_while.cs" />
+    <None Include="숙제\1_10총합.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="08_반복문\01_while\02_while.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="08_반복문\01_while\02_구구단.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\05_구구단.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="08_반복문\02_for\02_for.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="08_반복문\02_for\01_for.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\06_for문연습.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="09_점프문\01_점프문.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="숙제\쑥제2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\01_메서드\01_Method.cs" />
+    <None Include="숙제\04_쑥제.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\07_구구단.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\08_유클리드.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\01_메서드\02_Method.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\01_메서드\03_Method.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\01_메서드\04_Method.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\02_Refference\01_ref.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\02_Refference\01_ref_문제.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\02_Refference\01_ref_문제2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\09_Swap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\10_철수의성적.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\03_선택적매개변수\01_선택적매개변수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_메서드\04_오버로딩\01_오버로딩.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\01_클래스\01_클래스.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\01_클래스\02_클래스.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\01_클래스\03_클래스.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\01_클래스\03_에어컨.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\02_생성자종료자\01_생성자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\02_생성자종료자\02_생성자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\03_Static\01_Static.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\04_객체복사\01_객체복사.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\05_접근제한자\01_접근제한자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\05_접근제한자\02_접근제한자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="숙제\숙제으악.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\11_zl존법사.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="11_클래스\06_Library\01_dll.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DllLibrary">
+      <HintPath>..\..\DllLibrary\DllLibrary\bin\Debug\DllLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="12_구조체\01_구조체\01_구조체.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="13_배열\01_배열\01_배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="12_구조체\02_튜플\01_튜플.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="숙제\05_기분좋은날.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\12_3160.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\01_상속\02_상속.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\01_상속\01_상속.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\01_상속\03_상속.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\01_상속\04_상속.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\02_가상함수\01_오버라이딩.cs" />
+    <None Include="숙제\06_진짜으악숙제.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\13_캐릭터특수화.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\02_가상함수\02_오버라이딩.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\03_추상매서드\01_추상클래스.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\03_추상매서드\01_에어컨멈춰.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="숙제\07_추상클래스.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="14_상속\04_인터페이스\01_Interface.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="15_프로퍼티\01_프로퍼티\01_프로퍼티.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="15_프로퍼티\01_프로퍼티\02_자동구현프로퍼티.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="15_프로퍼티\01_프로퍼티\02_학생증.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="16_컬렉션\01_ArrayList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="16_컬렉션\02_Queue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="16_컬렉션\03_Stack.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="16_컬렉션\04_Hashtable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\14_로그인시스템.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="문제\14_로그인_플이.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="17_제네릭\01_제네릭메서드\01_제네릭메서드.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="17_제네릭\02_제네릭클래스\01_제네릭클래스.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="17_제네릭\03_제네릭컬렉션\01_List.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="17_제네릭\03_제네릭컬렉션\02_Queue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="17_제네릭\03_제네릭컬렉션\03_Stack.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="17_제네릭\03_제네릭컬렉션\04_Dictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="18_대리자\01_대리자\01_대리자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="18_대리자\02_Action_Func\01_Action.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="18_대리자\02_Action_Func\02_Func.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="18_대리자\03_무명함수_람다\01_람다.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="18_대리자\04_대리자체인\01_대리자체인.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="19_그외나머지\01_읽기전용필드.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="19_그외나머지\02_연산자오버로딩.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="19_그외나머지\03_전처리.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="19_그외나머지\04_쓰레드.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
